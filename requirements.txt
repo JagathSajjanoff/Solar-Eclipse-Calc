@@ -1,0 +1,5 @@
+curses
+ephem
+datetime
+PLI
+tkinter
