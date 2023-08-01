@@ -13,6 +13,6 @@
 
 # The code continues to iterate over the dates until it reaches the end date.
 
-# OutPut Formate {beside sumbit button} ==> yyyy-mm-dd || time || degree(angle)
+OutPut Formate {beside sumbit button} ==> yyyy-mm-dd || time || degree(angle)
 
 # Pkgs needed to run: curses, ephem, datetime, PLI, tkinter.
