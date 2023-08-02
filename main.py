@@ -37,7 +37,7 @@ class Application(tk.Frame):
             self.compute_eclipse_times()
             self.button.config(state="disabled")
         else:
-            print("Calculation Already Done, The Result Is Displayed.")
+            print("Calculation Done, The Result Is Displayed.")
 
     def compute_eclipse_times(self):
         curtime = datetime(int(self.name), 1, 1, 0, 0, 0)
