@@ -20,7 +20,7 @@ class Application(tk.Frame):
         self.label1.pack(side="left")
         self.entry1 = tk.Entry(self)
         self.entry1.pack(side="left")
-        self.label2 = tk.Label(self, text="Enter End Year:", fg="black", font=("Jessica", 14))
+        self.label2 = tk.Label(self, text="Enter End Year:", fg="black", font=("Robotica", 14))
         self.label2.pack(side="left")
         self.entry2 = tk.Entry(self)
         self.entry2.pack(side="left")
@@ -37,7 +37,7 @@ class Application(tk.Frame):
             self.compute_eclipse_times()
             self.button.config(state="disabled")
         else:
-            print("Calculation already done, the result is displayed.")
+            print("Calculation Already Done, The Result Is Displayed.")
 
     def compute_eclipse_times(self):
         curtime = datetime(int(self.name), 1, 1, 0, 0, 0)
