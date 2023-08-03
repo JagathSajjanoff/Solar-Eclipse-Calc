@@ -11,7 +11,7 @@ class Application(tk.Frame):
         self.master = master
         self.pack()
         self.create_widgets()
-        self.name = "Solar Eclipses"
+        self.name = "Solar Eclipse" 
         self.age = None
         self.results = []
 
